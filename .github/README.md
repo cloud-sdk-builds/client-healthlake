@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-healthlake`](https://www.npmjs.com/package/@aws-sdk/client-healthlake/v/3.288.0).
+[`@aws-sdk/client-healthlake`](https://www.npmjs.com/package/@aws-sdk/client-healthlake/v/3.289.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-healthlake@3.288.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-healthlake@3.289.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-cAG3RZTTAKEkMTkiuvGpXAjrZ7Q3xzQXbbicxb5t1Cclog4zVPof6qRDyfR3HwnP
+sha384-ivRGlgqriYZb5yhtaiqYx15dafzKB7QXJX59OtbLhXoBF8abMK4f9f5F6PnPzx8v
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-healthlake": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-healthlake@3.288.0/index.min.mjs"
+            "@aws-sdk/client-healthlake": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-healthlake@3.289.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-healthlake@3.288.0/index.min.mjs": "sha384-cAG3RZTTAKEkMTkiuvGpXAjrZ7Q3xzQXbbicxb5t1Cclog4zVPof6qRDyfR3HwnP"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-healthlake@3.289.0/index.min.mjs": "sha384-ivRGlgqriYZb5yhtaiqYx15dafzKB7QXJX59OtbLhXoBF8abMK4f9f5F6PnPzx8v"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-healthlake": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-healthlake@3.288.0/index.min.mjs"
+                        "@aws-sdk/client-healthlake": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-healthlake@3.289.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-healthlake@3.288.0/index.min.mjs": "sha384-cAG3RZTTAKEkMTkiuvGpXAjrZ7Q3xzQXbbicxb5t1Cclog4zVPof6qRDyfR3HwnP"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-healthlake@3.289.0/index.min.mjs": "sha384-ivRGlgqriYZb5yhtaiqYx15dafzKB7QXJX59OtbLhXoBF8abMK4f9f5F6PnPzx8v"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.288.0`)
+* Always pin to a specific version (`@3.289.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-healthlake/blob/refs/tags/3.288.0/LICENSE
+https://github.com/cloud-sdk-builds/client-healthlake/blob/refs/tags/3.289.0/LICENSE
 ```
 
 ---
